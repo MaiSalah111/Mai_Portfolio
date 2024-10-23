@@ -21,6 +21,10 @@ export const slideAnimation = (direction) => {
     },
   };
 };
+export const fadeIn = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { duration: 0.5 } }
+};
 
 export const fadeAnimation = {
   initial: {
@@ -67,4 +71,16 @@ export const headContainerAnimation = {
   initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
   animate: { x: 0, opacity: 1, transition: { ...transition, delay: 0 } },
   exit: { x: -100, opacity: 0, transition: { ...transition, delay: 0 } },
+};
+
+export const staggerContainer = (staggerChildren, delayChildren) => {
+  return {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: staggerChildren,
+        delayChildren: delayChildren || 0,
+      },
+    },
+  };
 };
