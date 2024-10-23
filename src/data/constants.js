@@ -192,7 +192,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
+    img: "/images/HSCS.webp",
     role: "Telecommunications Engineer/Project Engineer",
     company: "Hader Security & Communications Systems",
     date: "April 2014 - March 2018",
@@ -232,32 +232,22 @@ export const education = [
   },
 ];
 
-export const Feedbacks = [
+export const accomplishments = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    id: 0,
+    title: "Artificial Intelligence Bootcamp",
+    date: "December 2022",
+    desc: "This AI Bootcamp is compact and covers various topics including Data Science and the Python ecosystem, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Time-series Analysis.",
+    doc: "https://example.com/certificates/aws.pdf",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+      id: 1,
+      title: "Data Analysis and Visualization - Power BI",
+      date: "January 2023",
+      desc: "This certification helped me to develop in-demand skills in data pre-processing, visualization, and analysis using Power BI as the primary tool.",
+      doc: "https://example.com/certificates/aws.pdf",
+    },
+  ];
 
 export const projects = [
   {
