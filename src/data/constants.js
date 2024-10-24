@@ -238,14 +238,14 @@ export const accomplishments = [
     title: "Artificial Intelligence Bootcamp",
     date: "December 2022",
     desc: "This AI Bootcamp is compact and covers various topics including Data Science and the Python ecosystem, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and Time-series Analysis.",
-    doc: "https://example.com/certificates/aws.pdf",
+    doc: "https://drive.google.com/file/d/1-bVpEq2puOeouzPqZIqnTJEW-dGSVx2e/view?usp=sharing",
   },
   {
       id: 1,
       title: "Data Analysis and Visualization - Power BI",
       date: "January 2023",
       desc: "This certification helped me to develop in-demand skills in data pre-processing, visualization, and analysis using Power BI as the primary tool.",
-      doc: "https://example.com/certificates/aws.pdf",
+      doc: "https://drive.google.com/file/d/16B9ZZg1NCvBJ_F1rH060yaj80ewsswoG/view?usp=sharing",
     },
   ];
 
