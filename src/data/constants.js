@@ -155,11 +155,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "/images/HSCS.webp",
+    img: "/Private_Tutor.png",
     role: "Private Tutor",
     company: "Freelance",
     date: "April 2021 - Till Now",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    desc: "As a private tutor, I specialize in personalized learning, offering tailored support in Math, Science, Arabic, and Islamic Studies. I focus on strengthening subject comprehension and fostering critical thinking, adapting my teaching methods to fit each student's learning style. My goal is to help students excel academically while building their confidence and independent problem-solving skills.",
     skills: [
       "Subject Matter Expertise(Math, Science, Arabic Language,and Islamic Studies)",
       "Academic Coaching and Tutoring Abilities",
@@ -170,7 +170,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "/images/HSCS.webp",
+    img: "/HSCS_logo.jpeg",
     role: "Technical Project Manager",
     company: "Hader Security & Communications Systems",
     date: "April 2018 - March 2021",
@@ -192,7 +192,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "/images/HSCS.webp",
+    img: "/HSCS_logo.jpeg",
     role: "Telecommunications Engineer/Project Engineer",
     company: "Hader Security & Communications Systems",
     date: "April 2014 - March 2018",
@@ -214,16 +214,16 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "/images/42.png",
+    img: "42_School.png",
     school: "42 Abu Dhabi",
     date: "October 2023 - Till Now",
     // Overview: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am currently pursuing a Software Development diploma at 42 Abu Dhabi, an innovative and project-based coding school. I have completed several foundational and advanced projects, sharpening my skills in areas like algorithms, data structures, system programming, shell scripting, and software engineering principles. The program emphasizes peer-to-peer learning and real-world problem solving, which has allowed me to collaborate with a diverse group of developers on challenging projects. My experience here is helping me build a solid foundation in coding and preparing me for a future career in software engineering.",
     degree: "Software Development Diploma",
   },
   {
     id: 1,
-    img: "/images/logo-uniten.png",
+    img: "/Uniten_logo.png",
     school: "Universiti Tenaga Nasional (UNITEN)",
     date: "November 2009 - November 2013",
     // Overview: "88.2%",
@@ -249,53 +249,99 @@ export const accomplishments = [
     },
   ];
 
-export const projects = [
-  {
-    id: 2,
-    title: "Depression Detection using Deep Learning",
-    date: "October 2020",
-    description:
-      "Developed a Web App that detects depression in a person using one’s facial features extracted from real time video.",
-    image:
-      "/ML_ID12.png",
-    // tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/MaiSalah111",
-    // webapp: "https://brain-tumor.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Mai Salah Eldin",
-    //     // img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/MaiSalah111",
-    //   },
-    // ],
-  },
-  {
-    id: 3,
-    title: "Waggle(LapDog vs LapCat)",
-    date: "November 2023",
-    description:
-      "The purpose of this project was to create a data model and Power BI report for the startup company Waggle, to enable the CFO to quickly review and analyze which products sell well and which ones generate the highest profitability. ",
-    image:
-      "/Cat vs Dog.png",
-    // tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "data analysis",
-    github: "https://github.com/MaiSalah111",
-    // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Market Analysis Report For A National Clothing Chain",
-    date: "December 2023",
-    description:
-      "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
-    image:
-      "/DA_ID10.png",
-    // tags: ["React Native", "JavaScript", "Axios"],
-    category: "data analysis",
-    github: "https://github.com/MaiSalah111",
-    // webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-];
+  export const projects = [
+    {
+      id: 2,
+      title: "Depression Detection using Deep Learning",
+      date: "October 2020",
+      description:
+        "Developed a Web App that detects depression in a person using one’s facial features extracted from real time video.",
+      image:
+        "/ML_ID12.png",
+      category: "machine learning",
+      github: "https://github.com/MaiSalah111/Depression-Detection-using-Deep-Learning",
+    },
+    {
+      id: 3,
+      title: "Waggle(LapDog vs LapCat)",
+      date: "November 2023",
+      description:
+        "The purpose of this project was to create a data model and Power BI report for the startup company Waggle, to enable the CFO to quickly review and analyze which products sell well and which ones generate the highest profitability.",
+      image:
+        "/Cat vs Dog.png",
+      category: "data analysis",
+    },
+    {
+      id: 11,
+      title: "42 School Projects",
+      date: "Ongoing",
+      description:
+        "42 School is a private, nonprofit and tuition-free computer programming school. It offers a rigorous and innovative curriculum that emphasizes peer-to-peer learning and project-based education. This project repository contains various projects completed as part of the 42 Common Core curriculum.",
+      image:
+        "/42_School.png",
+      category: "42 School Projects",
+      github: "https://github.com/MaiSalah111/42_Common_Core_Projects",
+    },
+    {
+      id: 10,
+      title: "Market Analysis Report For A National Clothing Chain",
+      date: "December 2023",
+      description:
+        "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
+      image:
+        "/DA_ID10.png",
+      category: "data analysis",
+      github: "https://github.com/MaiSalah111",
+    },
+  ];
+  
+// export const projects = [
+//   {
+//     id: 2,
+//     title: "Depression Detection using Deep Learning",
+//     date: "October 2020",
+//     description:
+//       "Developed a Web App that detects depression in a person using one’s facial features extracted from real time video.",
+//     image:
+//       "/ML_ID12.png",
+//     // tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+//     category: "machine learning",
+//     github: "https://github.com/MaiSalah111/Depression-Detection-using-Deep-Learning",
+//     // webapp: "https://brain-tumor.netlify.app/",
+//     // member: [
+//     //   {
+//     //     name: "Mai Salah Eldin",
+//     //     // img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+//     //     // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+//     //     github: "https://github.com/MaiSalah111",
+//     //   },
+//     // ],
+//   },
+//   {
+//     id: 3,
+//     title: "Waggle(LapDog vs LapCat)",
+//     date: "November 2023",
+//     description:
+//       "The purpose of this project was to create a data model and Power BI report for the startup company Waggle, to enable the CFO to quickly review and analyze which products sell well and which ones generate the highest profitability. ",
+//     image:
+//       "/Cat vs Dog.png",
+//     // tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+//     category: "data analysis",
+//     github: "https://github.com/MaiSalah111",
+//     // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+//   },
+//   {
+//     id: 10,
+//     title: "Market Analysis Report For A National Clothing Chain",
+//     date: "December 2023",
+//     description:
+//       "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
+//     image:
+//       "/DA_ID10.png",
+//     // tags: ["React Native", "JavaScript", "Axios"],
+//     category: "data analysis",
+//     github: "https://github.com/MaiSalah111",
+//     // webapp: "https://github.com/rishavchanda/Job-finder-App",
+//   },
+// ];
 

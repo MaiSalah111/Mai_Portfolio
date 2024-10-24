@@ -78,7 +78,7 @@ const reflections = [
 
 const Reflections = () => {
   return (
-    <Container>
+    <Container id="Reflections">
       <Wrapper>
         <Title>Reflections</Title>
         <Desc>
