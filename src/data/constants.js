@@ -256,6 +256,8 @@ export const accomplishments = [
       image:
         "/Cat vs Dog.png",
       category: "data analysis",
+      github: "https://github.com/MaiSalah111/Data-Analysis-and-Visualization-using-Microsoft-Power-BI/tree/main/Data%20Model%20and%20PowerBI%20Report%20for%20Waggle",
+
     },
     {
       id: 11,
@@ -270,14 +272,14 @@ export const accomplishments = [
     },
     {
       id: 10,
-      title: "Market Analysis Report For a National Clothing Chain",
+      title: "Market Analysis Report for a National Clothing Chain",
       date: "December 2023",
       description:
         "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
       image:
         "/Market Analysis.png",
       category: "data analysis",
-      github: "https://github.com/MaiSalah111",
+      github: "https://github.com/MaiSalah111/Data-Analysis-and-Visualization-using-Microsoft-Power-BI/tree/main/Market%20Analysis%20Report%20for%20a%20National%20Clothing%20Chain",
     },
   ];
   
