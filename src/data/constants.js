@@ -264,7 +264,7 @@ export const accomplishments = [
       title: "42 School Projects",
       date: "Ongoing",
       description:
-        "42 School is a private, nonprofit and tuition-free computer programming school. It offers a rigorous and innovative curriculum that emphasizes peer-to-peer learning and project-based education. This project repository contains various projects completed as part of the 42 Common Core curriculum.",
+        "At 42 School, I completed projects that strengthened my foundational skills in systems programming and resource management using C and Bash. Notable projects include building a custom Unix shell with environment variable handling and built-in commands, a dining philosophers simulation that required multithreading and synchronization to prevent deadlocks, and a minishell project that adhered to strict coding standards. These hands-on experiences sharpened my abilities in command execution, concurrency, and writing clean, maintainable code, while also enhancing my problem-solving and algorithmic thinking skills.",
       image:
         "/42_School.png",
       category: "42 School Projects",
