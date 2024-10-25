@@ -22,7 +22,7 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Data Analytics",
+    title: "Data Analysis",
     skills: [
       {
         name: "Power BI",
