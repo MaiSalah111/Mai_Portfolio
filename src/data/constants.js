@@ -270,12 +270,12 @@ export const accomplishments = [
     },
     {
       id: 10,
-      title: "Market Analysis Report For A National Clothing Chain",
+      title: "Market Analysis Report For a National Clothing Chain",
       date: "December 2023",
       description:
         "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
       image:
-        "/DA_ID10.png",
+        "/Market Analysis.png",
       category: "data analysis",
       github: "https://github.com/MaiSalah111",
     },
