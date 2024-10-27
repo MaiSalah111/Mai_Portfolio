@@ -12,7 +12,7 @@ export const Bio = {
     "A curious mind with a knack for solving problems and bringing ideas to life! I’m always on the lookout for new technologies and innovations, whether it’s AI, data analysis, or software development. I dig deep into challenges to find the best solutions, using both data and creativity. My journey is all about evolving and pushing the boundaries of what’s possible. If you love tech, learning, and innovation as much as I do, we’ll definitely get along!!.",
   github: "https://github.com/MaiSalah111",
   resume:
-    "https://drive.google.com/file/d/1aajguguCjOOOZOI69RgY6zBnyknX5ZwL/view",
+    "https://drive.google.com/file/d/14S9M3eUAmPY4IpCfBqSoeAfZpKVWvaHL/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/maisalaheldin/",
   twitter: "https://x.com/Mai_Salaheldin",
   insta: "https://www.instagram.com/mai.salah",
