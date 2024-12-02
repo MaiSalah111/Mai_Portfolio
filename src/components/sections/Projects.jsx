@@ -77,7 +77,7 @@ const Projects = () => {
   const filteredProjects = toggle === "all" ? projects : projects.filter((project) => project.category === toggle);
 
   return (
-    <Container>
+    <Container id="Projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>Here are some of my projects</Desc>
@@ -106,6 +106,42 @@ const Projects = () => {
 };
 
 export default Projects;
+
+// const Projects = () => {
+//   const [toggle, setToggle] = useState("all");
+
+//   const filteredProjects = toggle === "all" ? projects : projects.filter((project) => project.category === toggle);
+
+//   return (
+//     <Container>
+//       <Wrapper>
+//         <Title>Projects</Title>
+//         <Desc>Here are some of my projects</Desc>
+//         <ToggleButtonGroup>
+//           <ToggleButton active={toggle === "all"} onClick={() => setToggle("all")}>
+//             ALL
+//           </ToggleButton>
+//           <ToggleButton active={toggle === "data analysis"} onClick={() => setToggle("data analysis")}>
+//             DATA ANALYSIS
+//           </ToggleButton>
+//           <ToggleButton active={toggle === "machine learning"} onClick={() => setToggle("machine learning")}>
+//             MACHINE LEARNING
+//           </ToggleButton>
+//           <ToggleButton active={toggle === "42 School Projects"} onClick={() => setToggle("42 School Projects")}>
+//             42 School Projects
+//           </ToggleButton>
+//         </ToggleButtonGroup>
+//         <div>
+//           {filteredProjects.map((project) => (
+//             <ProjectCard key={project.id} project={project} />
+//           ))}
+//         </div>
+//       </Wrapper>
+//     </Container>
+//   );
+// };
+
+// export default Projects;
 
 // import React, { useState } from "react";
 // import styled from "styled-components";
