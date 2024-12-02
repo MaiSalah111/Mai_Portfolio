@@ -143,9 +143,9 @@ const Navbar = () => {
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
+          <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Certifications">Certifications</NavLink>
           <NavLink href="#Reflections">Reflections</NavLink>
-          <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
 
         </NavItems>
