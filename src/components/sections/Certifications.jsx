@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Certifications } from "../../data/constants";
+import { certifications } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -116,7 +116,7 @@ const Certifications = () => {
         <Title>Certifications</Title>
         <Desc>Here are some of my Certifications and certifications.</Desc>
         <CertificationsContainer>
-          {Certifications.map((accomplishment, index) => (
+          {certifications.map((accomplishment, index) => (
             <Accomplishment key={`accomplishment-${index}`}>
               <AccomplishmentTitle>{accomplishment.title}</AccomplishmentTitle>
               <AccomplishmentDate>{accomplishment.date}</AccomplishmentDate>

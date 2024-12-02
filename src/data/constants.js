@@ -218,7 +218,7 @@ export const education = [
   },
 ];
 
-export const Certifications = [
+export const certifications = [
   {
     id: 0,
     title: "Artificial Intelligence Bootcamp",
