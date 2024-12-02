@@ -114,7 +114,7 @@ const Certifications = () => {
     <Container id="Certifications">
       <Wrapper>
         <Title>Certifications</Title>
-        <Desc>Here are some of my Certifications and certifications.</Desc>
+        <Desc>Here are some of my Certifications.</Desc>
         <CertificationsContainer>
           {certifications.map((accomplishment, index) => (
             <Accomplishment key={`accomplishment-${index}`}>
