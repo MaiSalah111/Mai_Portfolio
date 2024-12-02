@@ -218,7 +218,7 @@ export const education = [
   },
 ];
 
-export const accomplishments = [
+export const Certifications = [
   {
     id: 0,
     title: "Artificial Intelligence Bootcamp",
@@ -275,7 +275,7 @@ export const accomplishments = [
       title: "Market Analysis Report for a National Clothing Chain",
       date: "December 2023",
       description:
-        "An online national clothing chain needs your help creating a targeted marketing campaign. Sales have been flat and they want to lure lost customers back. They need indepth analysis to determine the best product to advertise to each customer.",
+        "An online national clothing chain needed help creating a targeted marketing campaign. Sales have been flat and they wanted to lure lost customers back. They needed indepth analysis to determine the best product to advertise to each customer.",
       image:
         "/Market Analysis.png",
       category: "data analysis",

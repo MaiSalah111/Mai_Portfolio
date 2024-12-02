@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { accomplishments } from "../../data/constants";
+import { Certifications } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -48,7 +48,7 @@ const Desc = styled.div`
   }
 `;
 
-const AccomplishmentsContainer = styled.div`
+const CertificationsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -109,14 +109,14 @@ const AccomplishmentDoc = styled.a`
   text-decoration: underline;
 `;
 
-const Accomplishments = () => {
+const Certifications = () => {
   return (
-    <Container id="Accomplishments">
+    <Container id="Certifications">
       <Wrapper>
-        <Title>Accomplishments & Certifications</Title>
-        <Desc>Here are some of my accomplishments and certifications.</Desc>
-        <AccomplishmentsContainer>
-          {accomplishments.map((accomplishment, index) => (
+        <Title>Certifications</Title>
+        <Desc>Here are some of my Certifications and certifications.</Desc>
+        <CertificationsContainer>
+          {Certifications.map((accomplishment, index) => (
             <Accomplishment key={`accomplishment-${index}`}>
               <AccomplishmentTitle>{accomplishment.title}</AccomplishmentTitle>
               <AccomplishmentDate>{accomplishment.date}</AccomplishmentDate>
@@ -126,10 +126,10 @@ const Accomplishments = () => {
               </AccomplishmentDoc>
             </Accomplishment>
           ))}
-        </AccomplishmentsContainer>
+        </CertificationsContainer>
       </Wrapper>
     </Container>
   );
 };
 
-export default Accomplishments;
+export default Certifications;

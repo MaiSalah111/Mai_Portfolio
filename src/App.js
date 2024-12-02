@@ -6,7 +6,7 @@ import Hero from "./components/sections/Hero";
 import Skills from "./components/sections/Skills";
 import Experience from "./components/sections/Experience";
 import Education from "./components/sections/Education";
-import Accomplishments from "./components/sections/Accomplishments"; 
+import Certifications from "./components/sections/Certifications"; 
 import Reflections from "./components/sections/Reflections";
 import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
@@ -52,7 +52,7 @@ function App() {
             <Projects />
             <Wrapper>
               <Education />
-              <Accomplishments />
+              <Certifications />
               <Reflections />
               <Contact />
             </Wrapper>
